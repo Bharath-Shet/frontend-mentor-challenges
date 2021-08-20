@@ -21,8 +21,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Click here for solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [Click here for solution URL](https://www.frontendmentor.io/solutions/flexboxmedia-queries-GQZ3JqpK_)
+- Live Site URL: [live site URL](https://sad-shannon-0b5065.netlify.app/)
 
 ## My process
 
