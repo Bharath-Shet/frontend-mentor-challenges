@@ -21,8 +21,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/flexbox-Yejz2opgp)
+- Live Site URL: [Add live site URL here](https://zen-elion-b0de48.netlify.app/)
 
 ## My process
 
