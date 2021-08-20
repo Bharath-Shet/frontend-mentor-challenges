@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+:root {
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: rgb(170, 92, 219);
+  --main-heading-stats: hsl(0, 0%, 100%);
+  --main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+}
+.attribution {
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 10%;
+}
+/* left card */
+.card {
+  display: flex;
+  background-color: var(--Dark-desaturated-blue);
+  justify-content: center;
+}
+
+.card .left {
+  padding: 72px;
+  width: 50%;
+}
+
+.card-title {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: var(--main-heading-stats);
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.card-title span {
+  color: var(--Soft-violet);
+}
+.card-text-content {
+  line-height: 1.5;
+  color: var(--main-paragraph);
+  font-family: "Inter", sans-serif;
+  margin-bottom: 86px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.3;
+  gap: 12px;
+}
+.stats p {
+  color: var(--stat-headings);
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+.stats span {
+  color: var(--main-paragraph);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+/* right card */
+
+.card .right {
+  width: 50%;
+}
+
+.right .picture {
+  background-image: url("./images/image-header-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.right .tint {
+  background-color: hsla(277, 64%, 61%, 0.5);
+  height: 100%;
+}
+
+@media (max-width: 998px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card .left {
+    padding: 72px;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 24px;
+  }
+  .card-text-content {
+    font-size: 12px;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 22px;
+  }
+  .card .right {
+    width: 100%;
+    height: 35vh;
+  }
+  .right .tint {
+    height: 100%;
+  }
+
+  .right .picture {
+    height: 100%;
+  }
+  .stats p {
+    font-size: 10px;
+  }
+}
