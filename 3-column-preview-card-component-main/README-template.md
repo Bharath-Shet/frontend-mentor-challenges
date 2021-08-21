@@ -22,7 +22,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [Click here for solution URL]()
-- Live Site URL: [live site URL]()
+- Live Site URL: [live site URL](https://reverent-rosalind-f04be6.netlify.app/)
 
 ## My process
 
@@ -34,7 +34,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Author
 
-- Website - [Bharath Shet](https://www.your-site.com)
+- Website - Bharath Shet
 - Frontend Mentor - [@Bharath-Shet](https://www.frontendmentor.io/profile/Bharath-Shet)
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
