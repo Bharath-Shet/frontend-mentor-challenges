@@ -28,7 +28,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 10%;
+  padding: 18px;
 }
 /* left card */
 .card {
@@ -72,7 +72,7 @@ body {
   font-size: 12px;
   font-family: "Inter", sans-serif;
 }
-.stats span {
+.stats h3 {
   color: var(--main-paragraph);
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -98,7 +98,7 @@ body {
   height: 100%;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1024px) {
   .card {
     display: flex;
     flex-direction: column-reverse;
@@ -119,13 +119,14 @@ body {
   }
   .card .right {
     width: 100%;
-    height: 35vh;
+    height: 45vh;
   }
   .right .tint {
     height: 100%;
   }
 
   .right .picture {
+    background-image: url("./images/image-header-mobile.jpg");
     height: 100%;
   }
   .stats p {

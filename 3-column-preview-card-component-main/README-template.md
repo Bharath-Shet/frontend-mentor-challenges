@@ -1,6 +1,6 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,8 +21,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Click here for solution URL](https://www.frontendmentor.io/solutions/flexbox-Yejz2opgp)
-- Live Site URL: [live site URL](https://trusting-ride-da6950.netlify.app/)
+- Solution URL: [Click here for solution URL]()
+- Live Site URL: [live site URL]()
 
 ## My process
 

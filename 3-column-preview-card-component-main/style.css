@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --background-headings-buttons: hsl(0, 0%, 95%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-headings-buttons);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+
+.card img {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+#suv {
+  background-color: var(--Bright-orange);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  border-radius: 12px 0 0 12px;
+}
+
+#sedan {
+  background-color: var(--Dark-cyan);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+#luxury {
+  background-color: var(--Very-dark-cyan);
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  border-radius: 0 12px 12px 0;
+}
+
+.card h3 {
+  color: var(--background-headings-buttons);
+  font-family: "Big Shoulders Display";
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.card p {
+  color: var(--paragraphs);
+  line-height: 1.5;
+  font-family: "Lexend Deca";
+}
+.btn {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 12px;
+  border-radius: 24px;
+  border: transparent;
+  font-family: "Lexend Deca";
+  background-color: var(--background-headings-buttons);
+  transition: all 0.2s ease-in-out;
+}
+
+.suv {
+  color: var(--Bright-orange);
+}
+.sedan {
+  color: var(--Dark-cyan);
+}
+
+.luxury {
+  color: var(--Very-dark-cyan);
+}
+.btn:hover {
+  cursor: pointer;
+  color: var(--background-headings-buttons);
+  background-color: inherit;
+  border: 2px solid var(--background-headings-buttons);
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: 12px;
+    width: 85vw;
+  }
+  #suv {
+    /* align-items: flex-start; */
+    border-radius: 12px 12px 0px 0px;
+  }
+  #luxury {
+    border-radius: 0px 0px 12px 12px;
+  }
+}
