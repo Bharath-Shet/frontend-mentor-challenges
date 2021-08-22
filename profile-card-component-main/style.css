@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--Very-dark-desaturated-blue);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+main {
+  background-color: var(--Dark-cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle .top-img-pattern,
+.circle .bottom-img-pattern {
+  position: absolute;
+  z-index: 0;
+}
+
+.top-img-pattern {
+  top: 0;
+  left: 0;
+  transform: translate(-35%, -55%);
+}
+
+.bottom-img-pattern {
+  bottom: 0;
+  right: 0;
+
+  transform: translate(25%, 65%);
+}
+
+.card-header {
+  background-image: url("./images/bg-pattern-card.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.card {
+  width: 340px;
+  border-radius: 12px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+.img-container {
+  width: 95px;
+  height: 95px;
+  margin-top: -50px;
+}
+
+.card-body .img-container img {
+  border-radius: 50%;
+  width: 100%;
+  border: 5px solid #fff;
+}
+
+.card-body .age {
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+
+.card-body .city {
+  color: var(--Dark-gray);
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px;
+  margin-top: 12px;
+  border-top: 0.5px solid var(--Dark-grayish-blue);
+}
+
+.stats-name {
+  font-size: 12px;
+  font-weight: 200;
+  color: var(--Dark-grayish-blue);
+}
+
+.stats-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+@media screen and (max-width: 706px) {
+  .top-img-pattern {
+    transform: translate(-70%, -55%);
+  }
+  .bottom-img-pattern {
+    transform: translate(70%, 55%);
+  }
+}
+/* 
+@media screen and (max-width: 700px) {
+  .bottom-img-pattern {
+    transform: translate(70%, 75%);
+  }
+} */
