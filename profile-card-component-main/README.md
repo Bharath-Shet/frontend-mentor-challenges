@@ -17,7 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Click here for solution URL](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/flexboxmedia-queries-NjQF7je9J)
-- Live Site URL: [live site URL](https://adoring-visvesvaraya-8867d5.netlify.app/)
+- Live Site URL: [live site URL](https://zealous-noether-8231b1.netlify.app/)
 
 ## My process
 
