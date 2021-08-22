@@ -19,33 +19,24 @@ body {
 }
 
 main {
-  background-color: var(--Dark-cyan);
+  height: 100vh;
+  /* I discovered some calc magic to make the top svg responsive. I'm pumped at the discovery but there's probably a more efficient way to skip media queries. */
+  background: url(./images/bg-pattern-top.svg) calc((50vw - 100vh)) -50vh no-repeat,
+    url(./images/bg-pattern-bottom.svg) 50vw 50vh no-repeat var(--Dark-cyan);
+  background-size: auto 100vh;
+}
+
+.flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 40px;
-  position: relative;
-  overflow: hidden;
-}
-
-.circle .top-img-pattern,
-.circle .bottom-img-pattern {
-  position: absolute;
-  z-index: 0;
-}
-
-.top-img-pattern {
-  top: 0;
-  left: 0;
-  transform: translate(-35%, -55%);
-}
-
-.bottom-img-pattern {
-  bottom: 0;
-  right: 0;
-
-  transform: translate(25%, 65%);
 }
 
 .card-header {
@@ -117,13 +108,4 @@ main {
   font-weight: 700;
   color: var(--Very-dark-desaturated-blue);
   text-align: center;
-}
-
-@media screen and (max-width: 706px) {
-  .top-img-pattern {
-    transform: translate(-70%, -55%);
-  }
-  .bottom-img-pattern {
-    transform: translate(70%, 55%);
-  }
 }
