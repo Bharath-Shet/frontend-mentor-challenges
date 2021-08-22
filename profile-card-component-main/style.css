@@ -108,12 +108,15 @@ main {
   font-size: 12px;
   font-weight: 200;
   color: var(--Dark-grayish-blue);
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 .stats-value {
   font-size: 18px;
   font-weight: 700;
   color: var(--Very-dark-desaturated-blue);
+  text-align: center;
 }
 
 @media screen and (max-width: 706px) {
@@ -124,9 +127,3 @@ main {
     transform: translate(70%, 55%);
   }
 }
-/* 
-@media screen and (max-width: 700px) {
-  .bottom-img-pattern {
-    transform: translate(70%, 75%);
-  }
-} */
